@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a4b2643-6e8c-4f55-bdbe-521987665d98" name="Changes" comment="added firstTest">
+    <list default="true" id="2a4b2643-6e8c-4f55-bdbe-521987665d98" name="Changes" comment="added method validationForm">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/github/selenide/SelenideWikiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/AutomationPracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/AutomationPracticeFormPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/AutomationPracticeFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/AutomationPracticeFormTests.java" afterDir="false" />
     </list>
@@ -77,14 +78,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AutomationPracticeFormTests">
+  <component name="RunManager" selected="Gradle.SelenideWikiTest.checkWikiSelenideGithubPageTest">
     <configuration name="AutomationPracticeFormTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -131,10 +132,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="SelenideWikiTest.checkWikiSelenideGithubPageTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;github.selenide.SelenideWikiTest.checkWikiSelenideGithubPageTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AutomationPracticeFormTests" />
+        <item itemvalue="Gradle.SelenideWikiTest.checkWikiSelenideGithubPageTest" />
         <item itemvalue="Gradle.AutomationPracticeFormTests.fillStudentRegistrationFormTest (1)" />
+        <item itemvalue="Gradle.AutomationPracticeFormTests" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +173,11 @@
       <updated>1659386615085</updated>
       <workItem from="1659386618153" duration="5303000" />
       <workItem from="1659426663105" duration="14722000" />
-      <workItem from="1659530275889" duration="6863000" />
+      <workItem from="1659530275889" duration="8556000" />
+      <workItem from="1659627245276" duration="196000" />
+      <workItem from="1659691082529" duration="17000" />
+      <workItem from="1659981695282" duration="674000" />
+      <workItem from="1660487897629" duration="6242000" />
     </task>
     <task id="LOCAL-00001" summary="added build.gradle">
       <created>1659387228533</created>
@@ -178,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659459042662</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added method validationForm">
+      <created>1659540690164</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659540690165</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +235,12 @@
     <MESSAGE value="added build.gradle" />
     <MESSAGE value="updated .gitignore" />
     <MESSAGE value="added firstTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="added firstTest" />
+    <MESSAGE value="added method validationForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="added method validationForm" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/demoqa_tests$AutomationPracticeFormTests_fillStudentRegistrationFormTest__1_.ic" NAME="AutomationPracticeFormTests.fillStudentRegistrationFormTest (1) Coverage Results" MODIFIED="1659452547660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

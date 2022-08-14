@@ -10,13 +10,14 @@ dependencies {
     implementation 'org.jetbrains:annotations:23.0.0'
     testImplementation(
             'com.codeborne:selenide:6.6.6',
-            'org.junit.jupiter:junit-jupiter:5.8.2',
+            'org.junit.jupiter:junit-jupiter:5.9.0',
             'org.slf4j:slf4j-simple:1.7.36'
     )
 }
 
 test {
     useJUnitPlatform()
+    systemProperty "chromeoptions.prefs","intl.accept_languages=en"
 }
 
 tasks.withType(JavaCompile) {

@@ -4,11 +4,12 @@ import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Selenide.open;
+import static com.demoqa.Data.email;
+import static com.demoqa.Data.mobilePhone;
 
 public class AutomationPracticeFormTests {
 
-    public static String email = AutomationPracticeFormPage.addedEmail();
-    public static String mobilePhone = AutomationPracticeFormPage.generatedMobilePhone();
+
 
     @BeforeAll
     static void configuration() {

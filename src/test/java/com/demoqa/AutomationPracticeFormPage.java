@@ -8,8 +8,8 @@ import java.io.File;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
-import static com.demoqa.AutomationPracticeFormTests.email;
-import static com.demoqa.AutomationPracticeFormTests.mobilePhone;
+import static com.demoqa.Data.email;
+import static com.demoqa.Data.mobilePhone;
 
 public class AutomationPracticeFormPage {
 
